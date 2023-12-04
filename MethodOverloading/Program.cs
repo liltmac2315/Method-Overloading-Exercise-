@@ -38,11 +38,11 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(0, 1, true));
+            Console.WriteLine(Add(0, 1));
 
             Console.WriteLine();
 
-            Console.WriteLine(Add(5, 7, true));
+            Console.WriteLine(Add(5.0M, 6.0M));
 
             Console.WriteLine();
 
